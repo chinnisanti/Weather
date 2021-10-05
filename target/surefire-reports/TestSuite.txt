@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 148.149 s <<< FAILURE! - in TestSuite
+com.test.WeatherComparisonTest.compareWeatherOutsideRange  Time elapsed: 9.935 s  <<< FAILURE!
+java.lang.AssertionError: Temperature is Outside permissible Range
+	at com.test.WeatherComparisonTest.compareWeatherOutsideRange(WeatherComparisonTest.java:56)
+

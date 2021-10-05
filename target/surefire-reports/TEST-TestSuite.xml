@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="148.149" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Comparator-master\src\test\resources\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Comparator-master\target\test-classes;C:\Comparator-master\target\classes;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\91905\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\91905\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\91905\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\91905\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\91905\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\91905\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\91905\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\91905\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\91905\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\91905\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\91905\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\91905\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\91905\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\91905\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\91905\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\91905\.m2\repository\io\rest-assured\json-path\4.2.0\json-path-4.2.0.jar;C:\Users\91905\.m2\repository\org\codehaus\groovy\groovy-json\2.5.8\groovy-json-2.5.8.jar;C:\Users\91905\.m2\repository\org\codehaus\groovy\groovy\2.5.8\groovy-2.5.8.jar;C:\Users\91905\.m2\repository\io\rest-assured\rest-assured-common\4.2.0\rest-assured-common-4.2.0.jar;C:\Users\91905\.m2\repository\io\rest-assured\xml-path\4.2.0\xml-path-4.2.0.jar;C:\Users\91905\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.8\groovy-xml-2.5.8.jar;C:\Users\91905\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\91905\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\91905\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\91905\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\91905\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\91905\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\91905\.m2\repository\io\rest-assured\rest-assured\4.2.0\rest-assured-4.2.0.jar;C:\Users\91905\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\91905\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\91905\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\91905\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\91905\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\91905\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\91905\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\91905\.m2\repository\io\rest-assured\json-schema-validator\4.2.0\json-schema-validator-4.2.0.jar;C:\Users\91905\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\91905\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\91905\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\91905\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\91905\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\91905\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\91905\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\91905\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\91905\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\91905\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\91905\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\91905\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\91905\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\91905\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\91905\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\91905\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\91905\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\91905\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\91905\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\91905\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\91905\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\91905\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\91905\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\91905\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin"/>
+    <property name="sun.java.command" value="C:\Users\91905\AppData\Local\Temp\surefire15270504670032280923\surefirebooter11142210428269307180.jar C:\Users\91905\AppData\Local\Temp\surefire15270504670032280923 2021-10-04T18-03-54_512-jvmRun1 surefire3026611905970197947tmp surefire_013140704592731263342tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Comparator-master\target\test-classes;C:\Comparator-master\target\classes;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-server\3.141.59\selenium-server-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\91905\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\91905\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\91905\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\91905\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\91905\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\91905\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\91905\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\91905\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\91905\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\91905\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\91905\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.4.12.v20180830\jetty-repacked-9.4.12.v20180830.jar;C:\Users\91905\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\91905\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\91905\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\91905\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\91905\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\91905\.m2\repository\io\rest-assured\json-path\4.2.0\json-path-4.2.0.jar;C:\Users\91905\.m2\repository\org\codehaus\groovy\groovy-json\2.5.8\groovy-json-2.5.8.jar;C:\Users\91905\.m2\repository\org\codehaus\groovy\groovy\2.5.8\groovy-2.5.8.jar;C:\Users\91905\.m2\repository\io\rest-assured\rest-assured-common\4.2.0\rest-assured-common-4.2.0.jar;C:\Users\91905\.m2\repository\io\rest-assured\xml-path\4.2.0\xml-path-4.2.0.jar;C:\Users\91905\.m2\repository\org\codehaus\groovy\groovy-xml\2.5.8\groovy-xml-2.5.8.jar;C:\Users\91905\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\91905\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\Users\91905\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\Users\91905\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.3.0.1\jaxb-osgi-2.3.0.1.jar;C:\Users\91905\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\91905\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\91905\.m2\repository\io\rest-assured\rest-assured\4.2.0\rest-assured-4.2.0.jar;C:\Users\91905\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\91905\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\91905\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\91905\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\91905\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\91905\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\91905\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\91905\.m2\repository\io\rest-assured\json-schema-validator\4.2.0\json-schema-validator-4.2.0.jar;C:\Users\91905\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.10\json-schema-validator-2.2.10.jar;C:\Users\91905\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.10\json-schema-core-1.2.10.jar;C:\Users\91905\.m2\repository\com\github\java-json-tools\jackson-coreutils\1.9\jackson-coreutils-1.9.jar;C:\Users\91905\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\91905\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\91905\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\91905\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\91905\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\91905\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\91905\.m2\repository\org\mozilla\rhino\1.7.7.1\rhino-1.7.7.1.jar;C:\Users\91905\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\91905\.m2\repository\joda-time\joda-time\2.9.7\joda-time-2.9.7.jar;C:\Users\91905\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.0.0\libphonenumber-8.0.0.jar;C:\Users\91905\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar;C:\Users\91905\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\91905\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\91905\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\91905\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\91905\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\91905\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\91905\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\91905\.m2\repository\org\slf4j\slf4j-log4j12\1.7.30\slf4j-log4j12-1.7.30.jar;C:\Users\91905\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\91905\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\91905"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.8"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Comparator-master"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\91905\AppData\Local\Temp\surefire15270504670032280923\surefirebooter11142210428269307180.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="user.name" value="91905"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\91905\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\91905\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="C:\Comparator-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-11.0.8/bin/server;C:/Program Files/Java/jdk-11.0.8/bin;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\IncrediBuild;C:\Users\91905\anaconda3\Scripts;C:\Users\91905\anaconda3\Library\bin;C:\Users\91905\AppData\Roaming\Python\Python39\site-packages\_pyinstaller_hooks_contrib;C:\Users\91905\AppData\Roaming\Python\Python39\site-packages\PyInstaller;c:\users\91905\appdata\roaming\python\python39\site-packages;C:\Users\91905\AppData\Roaming\Python\Python39\site-packages\cv2;C:\Program Files\Git\cmd;C:\Program Files\Java\jre1.8.0_301;C:\Program Files\Java\jdk-11.0.8;C:\Users\91905\.cargo\bin;C:\Users\91905\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\91905\AppData\Local\Programs\Python\Python38-32\;C:\Users\91905\AppData\Local\Microsoft\WindowsApps;C:\Users\91905\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\91905\.dotnet\tools;C:\Users\91905\Desktop;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="compareWeatherWithinRange" classname="com.test.WeatherComparisonTest" time="8.086">
+    <system-out><![CDATA[path=C:\Comparator-master\reports\AutomationReport_Mon Oct 04 18-04-09 IST 2021.html
+*** Test Suite Regression started ***
+*** Running test method compareWeatherWithinRange...
+31.0
+DEBUG [main] (BasicClientConnectionManager.java:161) - Get connection for route {s}->https://api.openweathermap.org:443
+DEBUG [main] (DefaultClientConnectionOperator.java:177) - Connecting to api.openweathermap.org:443
+DEBUG [main] (RequestAddCookies.java:123) - CookieSpec selected: ignoreCookies
+DEBUG [main] (RequestAuthCache.java:77) - Auth cache not set in the context
+DEBUG [main] (RequestTargetAuthentication.java:80) - Target auth state: UNCHALLENGED
+DEBUG [main] (RequestProxyAuthentication.java:89) - Proxy auth state: UNCHALLENGED
+DEBUG [main] (DefaultRequestDirector.java:682) - Attempt 1 to execute request
+DEBUG [main] (DefaultClientConnection.java:274) - Sending request: GET /data/2.5/weather?q=Delhi%2CDelhi&appid=7fe67bf08c80ded756e598d6f8fedaea&units=Metric HTTP/1.1
+DEBUG [main] (Wire.java:73) -  >> "GET /data/2.5/weather?q=Delhi%2CDelhi&appid=7fe67bf08c80ded756e598d6f8fedaea&units=Metric HTTP/1.1[\r][\n]"
+DEBUG [main] (Wire.java:73) -  >> "Accept: */*[\r][\n]"
+DEBUG [main] (Wire.java:73) -  >> "Host: api.openweathermap.org[\r][\n]"
+DEBUG [main] (Wire.java:73) -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG [main] (Wire.java:73) -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)[\r][\n]"
+DEBUG [main] (Wire.java:73) -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG [main] (Wire.java:73) -  >> "[\r][\n]"
+DEBUG [main] (DefaultClientConnection.java:278) - >> GET /data/2.5/weather?q=Delhi%2CDelhi&appid=7fe67bf08c80ded756e598d6f8fedaea&units=Metric HTTP/1.1
+DEBUG [main] (DefaultClientConnection.java:281) - >> Accept: */*
+DEBUG [main] (DefaultClientConnection.java:281) - >> Host: api.openweathermap.org
+DEBUG [main] (DefaultClientConnection.java:281) - >> Connection: Keep-Alive
+DEBUG [main] (DefaultClientConnection.java:281) - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)
+DEBUG [main] (DefaultClientConnection.java:281) - >> Accept-Encoding: gzip,deflate
+DEBUG [main] (Wire.java:73) -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Server: openresty[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Date: Mon, 04 Oct 2021 12:35:05 GMT[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Content-Length: 456[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Connection: keep-alive[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "X-Cache-Key: /data/2.5/weather?q=delhi%2cdelhi&units=Metric[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Access-Control-Allow-Methods: GET, POST[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "[\r][\n]"
+DEBUG [main] (DefaultClientConnection.java:259) - Receiving response: HTTP/1.1 200 OK
+DEBUG [main] (DefaultClientConnection.java:262) - << HTTP/1.1 200 OK
+DEBUG [main] (DefaultClientConnection.java:265) - << Server: openresty
+DEBUG [main] (DefaultClientConnection.java:265) - << Date: Mon, 04 Oct 2021 12:35:05 GMT
+DEBUG [main] (DefaultClientConnection.java:265) - << Content-Type: application/json; charset=utf-8
+DEBUG [main] (DefaultClientConnection.java:265) - << Content-Length: 456
+DEBUG [main] (DefaultClientConnection.java:265) - << Connection: keep-alive
+DEBUG [main] (DefaultClientConnection.java:265) - << X-Cache-Key: /data/2.5/weather?q=delhi%2cdelhi&units=Metric
+DEBUG [main] (DefaultClientConnection.java:265) - << Access-Control-Allow-Origin: *
+DEBUG [main] (DefaultClientConnection.java:265) - << Access-Control-Allow-Credentials: true
+DEBUG [main] (DefaultClientConnection.java:265) - << Access-Control-Allow-Methods: GET, POST
+DEBUG [main] (DefaultRequestDirector.java:509) - Connection can be kept alive indefinitely
+DEBUG [main] (HTTPBuilder.java:544) - Parsing response as: application/json; charset=utf-8
+DEBUG [main] (HTTPBuilder.java:547) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG [main] (Wire.java:87) -  << "{"coord":{"lon":77.2167,"lat":28.6667},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":34.05,"feels_like":39.2,"temp_min":32.95,"temp_max":34.05,"pressure":1004,"humidity":52},"visibility":5000,"wind":{"speed":1.54,"deg":250},"clouds":{"all":40},"dt":1633350847,"sys":{"type":1,"id":9165,"country":"IN","sunrise":1633308330,"sunset":1633350844},"timezone":19800,"id":1273294,"name":"Delhi","cod":200}"
+DEBUG [main] (BasicClientConnectionManager.java:200) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@331ff3ac
+DEBUG [main] (BasicClientConnectionManager.java:225) - Connection can be kept alive indefinitely
+jsonString=={"coord":{"lon":77.2167,"lat":28.6667},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":34.05,"feels_like":39.2,"temp_min":32.95,"temp_max":34.05,"pressure":1004,"humidity":52},"visibility":5000,"wind":{"speed":1.54,"deg":250},"clouds":{"all":40},"dt":1633350847,"sys":{"type":1,"id":9165,"country":"IN","sunrise":1633308330,"sunset":1633350844},"timezone":19800,"id":1273294,"name":"Delhi","cod":200}
+Temperature from UI = 31.0
+Temperature from API = 34.05
+Temperature Variance ( 3.0499992 )  is with in permissible range
+*** Executed compareWeatherWithinRange test successfully...
+after sucess report generation
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 6607
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 04, 2021 6:04:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="compareWeatherOutsideRange" classname="com.test.WeatherComparisonTest" time="9.935">
+    <failure message="Temperature is Outside permissible Range" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Temperature is Outside permissible Range
+	at com.test.WeatherComparisonTest.compareWeatherOutsideRange(WeatherComparisonTest.java:56)
+]]></failure>
+    <system-out><![CDATA[*** Running test method compareWeatherOutsideRange...
+31.0
+DEBUG [main] (BasicClientConnectionManager.java:161) - Get connection for route {s}->https://api.openweathermap.org:443
+DEBUG [main] (DefaultClientConnectionOperator.java:177) - Connecting to api.openweathermap.org:443
+DEBUG [main] (RequestAddCookies.java:123) - CookieSpec selected: ignoreCookies
+DEBUG [main] (RequestAuthCache.java:77) - Auth cache not set in the context
+DEBUG [main] (RequestTargetAuthentication.java:80) - Target auth state: UNCHALLENGED
+DEBUG [main] (RequestProxyAuthentication.java:89) - Proxy auth state: UNCHALLENGED
+DEBUG [main] (DefaultRequestDirector.java:682) - Attempt 1 to execute request
+DEBUG [main] (DefaultClientConnection.java:274) - Sending request: GET /data/2.5/weather?q=Delhi%2CDelhi&appid=7fe67bf08c80ded756e598d6f8fedaea&units=Metric HTTP/1.1
+DEBUG [main] (Wire.java:73) -  >> "GET /data/2.5/weather?q=Delhi%2CDelhi&appid=7fe67bf08c80ded756e598d6f8fedaea&units=Metric HTTP/1.1[\r][\n]"
+DEBUG [main] (Wire.java:73) -  >> "Accept: */*[\r][\n]"
+DEBUG [main] (Wire.java:73) -  >> "Host: api.openweathermap.org[\r][\n]"
+DEBUG [main] (Wire.java:73) -  >> "Connection: Keep-Alive[\r][\n]"
+DEBUG [main] (Wire.java:73) -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)[\r][\n]"
+DEBUG [main] (Wire.java:73) -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG [main] (Wire.java:73) -  >> "[\r][\n]"
+DEBUG [main] (DefaultClientConnection.java:278) - >> GET /data/2.5/weather?q=Delhi%2CDelhi&appid=7fe67bf08c80ded756e598d6f8fedaea&units=Metric HTTP/1.1
+DEBUG [main] (DefaultClientConnection.java:281) - >> Accept: */*
+DEBUG [main] (DefaultClientConnection.java:281) - >> Host: api.openweathermap.org
+DEBUG [main] (DefaultClientConnection.java:281) - >> Connection: Keep-Alive
+DEBUG [main] (DefaultClientConnection.java:281) - >> User-Agent: Apache-HttpClient/4.5.3 (Java/11.0.8)
+DEBUG [main] (DefaultClientConnection.java:281) - >> Accept-Encoding: gzip,deflate
+DEBUG [main] (Wire.java:73) -  << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Server: openresty[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Date: Mon, 04 Oct 2021 12:36:39 GMT[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Content-Length: 456[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Connection: keep-alive[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "X-Cache-Key: /data/2.5/weather?q=delhi%2cdelhi&units=Metric[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Access-Control-Allow-Credentials: true[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "Access-Control-Allow-Methods: GET, POST[\r][\n]"
+DEBUG [main] (Wire.java:73) -  << "[\r][\n]"
+DEBUG [main] (DefaultClientConnection.java:259) - Receiving response: HTTP/1.1 200 OK
+DEBUG [main] (DefaultClientConnection.java:262) - << HTTP/1.1 200 OK
+DEBUG [main] (DefaultClientConnection.java:265) - << Server: openresty
+DEBUG [main] (DefaultClientConnection.java:265) - << Date: Mon, 04 Oct 2021 12:36:39 GMT
+DEBUG [main] (DefaultClientConnection.java:265) - << Content-Type: application/json; charset=utf-8
+DEBUG [main] (DefaultClientConnection.java:265) - << Content-Length: 456
+DEBUG [main] (DefaultClientConnection.java:265) - << Connection: keep-alive
+DEBUG [main] (DefaultClientConnection.java:265) - << X-Cache-Key: /data/2.5/weather?q=delhi%2cdelhi&units=Metric
+DEBUG [main] (DefaultClientConnection.java:265) - << Access-Control-Allow-Origin: *
+DEBUG [main] (DefaultClientConnection.java:265) - << Access-Control-Allow-Credentials: true
+DEBUG [main] (DefaultClientConnection.java:265) - << Access-Control-Allow-Methods: GET, POST
+DEBUG [main] (DefaultRequestDirector.java:509) - Connection can be kept alive indefinitely
+DEBUG [main] (HTTPBuilder.java:544) - Parsing response as: application/json; charset=utf-8
+DEBUG [main] (HTTPBuilder.java:547) - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+DEBUG [main] (Wire.java:87) -  << "{"coord":{"lon":77.2167,"lat":28.6667},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":34.05,"feels_like":39.2,"temp_min":32.95,"temp_max":34.05,"pressure":1004,"humidity":52},"visibility":5000,"wind":{"speed":1.54,"deg":250},"clouds":{"all":40},"dt":1633350847,"sys":{"type":1,"id":9165,"country":"IN","sunrise":1633308330,"sunset":1633350844},"timezone":19800,"id":1273294,"name":"Delhi","cod":200}"
+DEBUG [main] (BasicClientConnectionManager.java:200) - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4aaecabd
+DEBUG [main] (BasicClientConnectionManager.java:225) - Connection can be kept alive indefinitely
+jsonString=={"coord":{"lon":77.2167,"lat":28.6667},"weather":[{"id":721,"main":"Haze","description":"haze","icon":"50n"}],"base":"stations","main":{"temp":34.05,"feels_like":39.2,"temp_min":32.95,"temp_max":34.05,"pressure":1004,"humidity":52},"visibility":5000,"wind":{"speed":1.54,"deg":250},"clouds":{"all":40},"dt":1633350847,"sys":{"type":1,"id":9165,"country":"IN","sunrise":1633308330,"sunset":1633350844},"timezone":19800,"id":1273294,"name":"Delhi","cod":200}
+Temperature from UI = 31.0
+Temperature from API = 34.05
+*** Test execution compareWeatherOutsideRange failed...
+after Failure report generation
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 5589
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 04, 2021 6:05:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+com.util.TemperatureOutsideRangeException: Temperature variation is outside the range
+	at com.util.Utilities.weatherComparator(Utilities.java:13)
+	at com.test.WeatherComparisonTest.compareWeatherOutsideRange(WeatherComparisonTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+</testsuite>
